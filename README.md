@@ -7,10 +7,10 @@ The main objective here is to create an entire web page from a design provided, 
 
 - <a href=https://andressasiewers.github.io/landing-page> Landing Page </a>
 
-### Design Provided
+## Design Provided
 ![Design Provided](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
-### Color and Fonts
+## Color and Fonts
 ![Color and Fonts](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png)
 
 ## Credits
