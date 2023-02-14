@@ -116,15 +116,15 @@ ul {
 }
 
 .image {
-    width: 130px;
-    height: 135px;
+    width: 150px;
+    height: 155px;
     border: 2px solid #3882f6;
     border-radius: 15px;
 }
 
 .subtext {
     color: #1f2937;
-    width: 130px;
+    width: 150px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 100px;
@@ -150,10 +150,9 @@ ul {
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
-    width: 740px;
+    width: 740px;  
     padding: 150px 320px;
-    padding-bottom: 5px;   
-
+    padding-bottom: 5px;
 }
 
 .author {
@@ -162,4 +161,67 @@ ul {
     font-weight: bolder;
     padding-top: 5px;
     padding-left: 780px;
+}
+
+/* third container, box action */
+
+.action {
+    background-color:#F9FAF8;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-action {
+    background-color: #3882f6;
+    height: 130px;
+    width: 760px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0px rgba(8, 8, 8, 0.145);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-title {
+    font-size: large;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.action-subtext {
+    color: #e5e7eb;
+    font-weight: lighter;
+}
+
+.button-two {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    width: 90px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.button-two:hover {
+    color:  #3882f6;
+    font-weight: bold;
+    background-color: #F9FAF8;
+    border-radius: 10px;
+    width: 90px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.button-text {
+    color: #F9FAF8;
+}
+
+.button-text:hover {
+    color: #3882f6;
 }
