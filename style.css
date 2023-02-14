@@ -61,7 +61,7 @@ ul {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    width: 300px;
+    width: 350px;
     margin-bottom: 5px;
 }
 
@@ -97,7 +97,7 @@ ul {
 }
 
 .secondary-text {
-    width: 360px;
+    width: 350px;
     margin-bottom: 10px;
     font-size: 18px;
     color: #e5e7eb;
@@ -105,10 +105,11 @@ ul {
 
 .header-image {
     width: 500px;
-    height: 250px;
+    height: 285px;
     display: flex;
     flex-shrink: 0;
     padding-right: 150px;
+    padding-bottom: 25px;
 }
 
 /* second container, information */
@@ -122,11 +123,19 @@ ul {
     justify-content: center;
 }
 
-.image {
+.image img {
     width: 150px;
     height: 155px;
     border: 2px solid #3882f6;
     border-radius: 15px;
+}
+
+.image img:hover {
+    width: 150px;
+    height: 155px;
+    border: 2px solid rgb(56, 130, 246);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(56, 129, 246, 0.175);
 }
 
 .subtext {
@@ -157,7 +166,7 @@ ul {
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
-    width: 740px;  
+    width: 755px;  
     padding: 150px 320px;
     padding-bottom: 5px;
 }
@@ -167,7 +176,7 @@ ul {
     color: #1f2937;
     font-weight: bolder;
     padding-top: 5px;
-    padding-left: 780px;
+    padding-left: 895px;
     width: 250px;
     display: flex;
     flex-shrink: 0;
