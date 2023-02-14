@@ -137,3 +137,29 @@ ul {
     padding-top: 50px;
     gap: 40px;
 }
+
+/* third container, quote container */
+
+.quote {
+    background-color: #e5e7eb;
+    height: 500px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 740px;
+    padding: 150px 320px;
+    padding-bottom: 5px;   
+
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-left: 780px;
+}
