@@ -1,6 +1,7 @@
-body {
+html, body {
     margin: 0;
-   width: fit-content;
+    padding: 0;
+    overflow-x: visible;
 } 
 
 /* blue container, first container */
@@ -29,7 +30,6 @@ body {
 .links {
     font-size: 18px;
     display: flex;
-    flex-wrap: nowrap;
     flex-shrink: 0;
     gap: 16px;
     padding-right: 150px;
@@ -104,7 +104,7 @@ ul {
 }
 
 .header-image {
-    width: 500px;
+    width: 400px;
     height: 285px;
     display: flex;
     flex-shrink: 0;
@@ -256,4 +256,17 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*          */
+
+body {
+
+    background-color: #F9FAF8;
+    margin-left: 0%;
+    margin-right: 0%;
+
+
+    overflow-x: hidden;
+
 }
