@@ -1,6 +1,8 @@
 body {
     margin: 0;
-}
+} 
+
+/* blue container, first container */
 
 .header, .about {
     background-color: #1f2937;
@@ -70,11 +72,11 @@ ul {
 }
 
 .button-one:hover {
-    color: #3882f6;
+    color:  #F9FAF8;
     font-weight: bold;
-    background-color: #F9FAF8;
+    background-color: #1c5dc5;
     border-radius: 10px;
-    box-shadow: 0 5px 8px 0 rgba(224, 224, 224, 0.050), 0 7px 10px 0 rgba(238, 238, 238, 0.055);
+    box-shadow: 0 5px 8px 0 rgba(224, 224, 224, 0.020), 0 7px 10px 0 rgba(238, 238, 238, 0.025);
     width: 90px;
     height: 20px;
     padding: 5px;
@@ -86,7 +88,7 @@ ul {
 }
 
 .button-text:hover {
-    color: #3882f6;
+    color: #F9FAF8;
 }
 
 .secondary-text {
@@ -100,4 +102,38 @@ ul {
     width: 500px;
     height: 250px;
     padding-right: 150px;
+}
+
+/* second container, information */
+
+.information-header-text {
+    font-size: 36px; 
+    color: #1f2937;
+    font-weight: bolder;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 130px;
+    height: 135px;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+
+.subtext {
+    color: #1f2937;
+    width: 130px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+
+.image-subtext {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+    gap: 40px;
 }
