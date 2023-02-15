@@ -47,6 +47,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding-bottom: 5rem;
+    gap: 1rem;
 }
 
 .main-text {
@@ -54,6 +55,7 @@ ul {
     font-size: 48px;
     font-weight: bolder;
     width: 30rem;
+    flex: 1 0 auto;
 }
 
 .button-one {
@@ -93,7 +95,7 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
 }
 
 .header-image {
@@ -101,7 +103,8 @@ ul {
     height: 18rem;
     border-radius: 2px;
     display: flex;
-    flex-shrink: 0;
+    flex: 1 0 auto;
+
 }
 
 .logo, .about-text {
@@ -159,6 +162,10 @@ ul {
 .quote {
     background-color: #e5e7eb;
     height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
@@ -167,19 +174,16 @@ ul {
     font-style: italic;
     font-weight: lighter;
     width: 45rem;  
-    padding-left: 21rem;
-    padding-top: 8rem;  
 }
 
 .author {
     font-size: 24px;
     color: #1f2937;
     font-weight: bolder;
-    padding-top: .5rem;
-    padding-left: 54rem;
-    width: 250px;
+    width: 12rem;
     display: flex;
     flex-shrink: 0;
+    padding-left: 32rem;
 }
 
 /* fourth container, box action */
