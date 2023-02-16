@@ -79,7 +79,7 @@ ul {
 }
 
 .button-one {
-    background-color: #3882f6;
+    background-color: #1DB954;
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 10px;
@@ -93,7 +93,7 @@ ul {
 .button-one:hover {
     color:  #F9FAF8;
     font-weight: bold;
-    background-color: #1c5dc5;
+    background-color: #126e32;
     border-radius: 10px;
     box-shadow: 0 5px 8px 0 rgba(224, 224, 224, 0.020), 0 7px 10px 0 rgba(238, 238, 238, 0.025);
     width: 92px;
@@ -144,7 +144,7 @@ ul {
     height: 17rem;
     border: none;
     border-radius: 2px;
-    box-shadow: 3px 3px 3px 1px #3881f65b;
+    box-shadow: 3px 3px 3px 1px #1db95411;
 }
 
 .subtext {
@@ -208,7 +208,7 @@ ul {
 }
 
 .box-action {
-    background-color: #3882f6;
+    background-color: #1DB954;
     border-radius: 2px;
     box-shadow: 0 5px 8px 0px rgba(8, 8, 8, 0.145);
     display: flex;
@@ -239,7 +239,7 @@ ul {
 }
 
 .button-two {
-    background-color: #3882f6;
+    background-color: #1DB954;
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 10px;
@@ -251,7 +251,7 @@ ul {
 }
 
 .button-two:hover {
-    color:  #3882f6;
+    color: #1DB954;
     font-weight: bold;
     background-color: #F9FAF8;
     border-radius: 10px;
@@ -266,7 +266,7 @@ ul {
 }
 
 .button-text-two:hover {
-    color: #3882f6;
+    color: #1DB954;
 }
 
 /* Footer */
