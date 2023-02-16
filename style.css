@@ -62,6 +62,7 @@ ul {
     width: 95%;
     display: flex;
     flex: 1 1 auto;
+    padding-bottom: 1rem;
 }
 
 .secondary-text {
@@ -72,6 +73,7 @@ ul {
     display: flex;
     flex: 1 1 auto;
     justify-content: start;
+    padding-bottom: 1rem;
 }
 
 .about-text {
@@ -144,7 +146,7 @@ ul {
     height: 17rem;
     border: none;
     border-radius: 2px;
-    box-shadow: 3px 3px 3px 1px #1db95411;
+    box-shadow: 0 5px 12px 0px rgba(8, 8, 8, 0.199);
 }
 
 .subtext {
@@ -212,13 +214,14 @@ ul {
     border-radius: 2px;
     box-shadow: 0 5px 8px 0px rgba(8, 8, 8, 0.145);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex: 0 1 auto;
     flex-wrap: wrap;
+    width: 50%;
     padding: 5%;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
     gap: 2rem;
 }
 
