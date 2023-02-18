@@ -60,7 +60,12 @@ ul {
 @media (max-width: 600px) {
   .about {
     flex-direction: column;
-    min-width: 70%;
+  }
+  .header-image {
+    min-width: 90%;
+  }
+  .image-subtext {
+    flex-direction: column;
   }
 }
 
