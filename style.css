@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 } 
 
 /* blue container, first container */
@@ -51,8 +52,16 @@ ul {
 
 .about {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     padding-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  .about {
+    flex-direction: column;
+    min-width: 70%;
+  }
 }
 
 .main-text {
@@ -78,6 +87,8 @@ ul {
 
 .about-text {
     padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .button-one {
@@ -113,7 +124,7 @@ ul {
 }
 
 .header-image {
-    width: 45%;
+    width: 50%;
     height: 18%;
     border-radius: 2px;
     display: flex;
@@ -126,6 +137,7 @@ ul {
     font-size: 36px; 
     color: #1f2937;
     font-weight: bolder;
+    text-align: center;
     display: flex;
     justify-content: center;
     padding-top: 5rem;
