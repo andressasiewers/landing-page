@@ -5,7 +5,7 @@ html, body {
     box-sizing: border-box;
 } 
 
-/* blue container, first container */
+/* first container, dark blue background container */
 
 .dark-blue {
     background-color: #1f2937;
@@ -57,12 +57,13 @@ ul {
     padding-bottom: 5%;
 }
 
-/*  */
+/* media query to when the page is at minimum viewport size */
 @media (max-width: 600px) {
   .header > .logo {
     max-width: 10%;
     }
 
+  /* switches the flex direction between row and column when the viewport crosses a particular width threshold. */
   .about {
     flex-direction: column;
     align-items: center;
@@ -207,7 +208,7 @@ ul {
     padding-bottom: 8rem;
 }
 
-/* third container, quote container */
+/* third container, quote */
 
 .quote {
     background-color: #e5e7eb;
