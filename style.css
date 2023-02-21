@@ -12,7 +12,7 @@ html, body {
     display: flex;
     flex: 1 1 0;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 10%; 
 }
 
 .header {
@@ -55,43 +55,6 @@ ul {
     flex-direction: row;
     justify-content: flex-start;
     padding-bottom: 5%;
-}
-
-/* media query to when the page is at minimum viewport size */
-@media (max-width: 600px) {
-  .header > .logo {
-    max-width: 10%;
-    }
-
-  /* switches the flex direction between row and column when the viewport crosses a particular width threshold. */
-  .about {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .header-image {
-    min-width: 90%;
-    text-align: center;
-  }
-
-  .image-subtext {
-    flex-direction: column;
-  }
-
-  .secondary-text {
-    text-align: justify;
-    align-self: center;
-  }
-
-  .main-text {
-    text-align: center;
-    align-self: center;
-  }
-
-  .button-one {
-    align-self: center;
-  }
-
 }
 
 .main-text {
@@ -324,3 +287,42 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+/* media query to when the page is at minimum viewport size */
+@media (max-width: 720px) {
+    .header > .logo {
+      max-width: 10%;
+      }
+  
+    /* switches the flex direction between row and column when the viewport crosses a particular width threshold. */
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-image {
+      min-width: 90%;
+      text-align: center;
+    }
+  
+    .image-subtext {
+      flex-direction: column;
+    }
+  
+    .secondary-text {
+      text-align: justify;
+      align-self: center;
+    }
+  
+    .main-text {
+      text-align: center;
+      align-self: center;
+    }
+  
+    .button-one {
+      align-self: center;
+    }
+  
+  }
+  
